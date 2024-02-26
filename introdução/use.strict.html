@@ -9,10 +9,21 @@
 
     <script>
         
-        "use strict"
+        // "use strict"
         // "use strict" deixa o conteúdo mais seguro e quando você quiser usar, tem que colocar na primeira linha do JavaScript, até antes de qualquer comentário.  
-        let x = 10
-        
+        // let x = 10
+        y=10
+        function foo (){
+            'use strict' // se a gente usar ele dentro do bloco de código ele funciona apenas naquele bloco, e quando colocamos no inicio do script, ele funciona de forma global
+            let x = 20
+        }
+        foo()
+        console.log(y)
+
+        function dobrar(n1, n2){
+            return n1 * n2
+        }
+        console.log(dobrar(5,7))
     </script>
     
 </body>
