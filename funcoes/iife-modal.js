@@ -9,7 +9,7 @@ init()
 
 (function(){
     let isValid = false
-    console.log("init modal", isValid)
+    console.log("init modalca ", isValid)
 
     function init(){
         console.log("init do modal")
