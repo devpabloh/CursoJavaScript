@@ -22,3 +22,4 @@ const Subtrair = () => {
     }
     return tortal
 }
+console.log(somar.name)
