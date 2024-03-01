@@ -1,0 +1,28 @@
+function fn(cb){
+    console.log("executar acao callback")
+    console.log(typeof cb)
+    typeof cb === "function" && cb()
+
+}
+/* 
+fn (function(){
+    console.log("funcao passada por parametro")
+}) */
+
+function callback(){
+    console.log("funcao passada por parametro")
+}
+fn(callback)
+
+const obj = {
+    callback: callback
+}
+obj.callback()  
+
+function fn2(n1){
+    return function(n2){
+         return n1 * n2
+    }
+}
+const funcao2 = fn2(10)
+const mult = funcao2(2)
