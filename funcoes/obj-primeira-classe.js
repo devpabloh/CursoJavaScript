@@ -33,7 +33,7 @@ return function _fn3(){
     console.log("funcao retornada por parametro")
 }
 }
+fn3.count = 0
 const funcao3 = fn3()
-funcao3(
-    
-)
+funcao3()
+console.log(fn3.count)
