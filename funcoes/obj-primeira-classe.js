@@ -26,3 +26,14 @@ function fn2(n1){
 }
 const funcao2 = fn2(10)
 const mult = funcao2(2)
+console.log(mult)
+
+function fn3(){
+return function _fn3(){
+    console.log("funcao retornada por parametro")
+}
+}
+const funcao3 = fn3()
+funcao3(
+    
+)
