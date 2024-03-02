@@ -13,6 +13,6 @@
         }
         return total / qtd
     }
-    let media = calcularMedia(2,4)
+    let media = calcularMedia(2,4, 6)
     console.log(media)
 }())
