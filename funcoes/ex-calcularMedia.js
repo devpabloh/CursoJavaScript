@@ -11,7 +11,7 @@
             total += arguments[i]
             
         }
-        return total / qtd
+        return total / qtd || 0
     }
     let media = calcularMedia(2,4, 6, "4")
     console.log(media)
